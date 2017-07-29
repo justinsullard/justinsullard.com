@@ -1,0 +1,152 @@
+html {
+    background-color: #ccc;
+    color: #333;
+    font-family: monospace;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0 auto;
+    max-width: 768px;
+}
+body * {
+    display: flex;
+    flex-direction: column;    
+}
+script {
+    display: none;
+}
+header {
+    align-items: center;
+}
+nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+main {
+    flex: 1;
+}
+footer {
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    margin: 0;
+}
+p, ul, ol, pre, blockquote, code {
+    margin-top: 0;
+}
+code {
+    background-color: #333;
+    color: #ccc;
+    white-space: pre-wrap;
+}
+code * {
+    display: initial;
+}
+code.hljs {
+    padding: 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+hr {
+    border: none;
+    border-top: 1px solid #333;
+}
+input, textarea {
+    background-color: #fff;
+    color: #000;
+}
+img {
+    align-self: center;
+}
+a, a:visited, a:hover, button {
+    background: none;
+    color: inherit;
+    border: none; 
+    padding: 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover, a:focus, a:active, button:hover, button:focus {
+    color: #c63;
+}
+h1 a, h1 a:focus, h1 a:hover {
+    text-decoration: none;
+}
+@media only screen and (min-device-width: 680px) { 
+    html {
+        font-size: 1.5vw;
+        line-height: 3vw;
+        margin: 0 1vw;
+    }
+    h1 {
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+    h2 {
+        font-size: 2vw;
+        line-height: 3vw;
+        margin: 0 0 4.5vw 0;
+    }
+    p, ul, ol, pre, blockquote, code {
+        margin-bottom: 4vw;
+    }
+    code {
+        margin-top: 6vw;
+    }
+    blockquote {
+        margin-left: 6vw;
+    }
+    hr {
+        margin: -1px 0 3vw;
+    }
+    img {
+        max-width: 40vmin;
+    }
+    footer {
+        margin-top: 3vw;
+    }
+}
+
+@media only screen and (max-device-width: 679px) { 
+    html {
+        font-size: 3vw;
+        line-height: 4.5vw;
+        margin: 0 1vw;
+    }
+    h1 {
+        font-size: 6vw;
+        line-height: 9vw;
+    }
+    h2 {
+        font-size: 3.75vw;
+        line-height: 4.5vw;
+        margin: 0 0 4.5vw 0;
+    }
+
+    p, ul, ol, pre, blockquote, code {
+        margin-bottom: 4.5vw;
+    }
+    code {
+        margin-top: 4.5vw;
+    }
+    blockquote {
+        margin-left: 3vw;
+    }
+    hr {
+        margin: -1px 0 1.5vw;
+    }
+    img {
+        max-width: 40vmin;
+    }
+    footer {
+        margin-top: 4.5vw;
+    }
+}
