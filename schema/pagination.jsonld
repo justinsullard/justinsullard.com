@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:pagination",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex"
+  },
+  "owl:equivalentProperty": {
+    "@id": "http://purl.org/ontology/bibo/pages"
+  },
+  "rdfs:comment": "Any description of pages that is not separated into pageStart and pageEnd; for example, \"1-6, 9, 55\" or \"10-12, 46-49\".",
+  "rdfs:label": "pagination",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:Chapter"
+    },
+    {
+      "@id": "schema:Article"
+    },
+    {
+      "@id": "schema:PublicationVolume"
+    },
+    {
+      "@id": "schema:PublicationIssue"
+    }
+  ],
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

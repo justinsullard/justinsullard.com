@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><head>
+<title>Justin Sullard - justinsullard.com</title>
+<link rel="stylesheet" type="text/css" href="/index.css">
+</head>
+<body>
+<header><h1><a href="/">justinsullard.com</a></h1></header>
+<nav>
+<a href="/code">Code</a>
+<a href="mailto:justin@justinsullard.com">Email</a>
+</nav>
+<hr>
+<main><article><img src="/image.svg"><code class="javascript">(() =&gt; {
+    const url = '/code';
+    const $main = document.querySelector('main');
+    const data = {
+        "@id": url,
+        "@context": "http://schema.org/",
+        "@type": "SoftwareSourceCode",
+        "name": "Code",
+        "description": "I like solving problems with software. As a result, I tend to write a lot of code. Most of it few people will ever see, save those that maintain it.
+
+However, I have several open source projects, and am getting more involved in the open source community.",
+        "potentialAction": [
+            "ReviewAction",
+            "ListenAction",
+            "ReadAction",
+            "CommunicatAction"
+        ],
+        "url": url,
+        "mainEntityOfPage": url,
+        "codeRepository": "http://github.com/justinsullard"
+    };
+    window.addEventListener('jss-page', ({ detail }) =&gt; {
+        if (detail !== url || $main.getAttribute('data-id') === url) { return; }
+        window.dispatchEvent(new CustomEvent('jss-render', { detail: Object.freeze(data) }));
+    });
+})();
+</code></article></main>
+<footer><a href="/">https://justinsullard.com</a></footer>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css">
+<script>[...document.querySelectorAll('code')].forEach(hljs.highlightBlock);</script>
+</body></html>

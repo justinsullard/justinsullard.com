@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:emissionsCO2",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+  },
+  "rdfs:comment": "The CO2 emissions in g/km. When used in combination with a QuantitativeValue, put \"g/km\" into the unitText property of that value, since there is no UN/CEFACT Common Code for \"g/km\".",
+  "rdfs:label": "emissionsCO2",
+  "schema:domainIncludes": {
+    "@id": "schema:Vehicle"
+  },
+  "schema:isPartOf": {
+    "@id": "http://auto.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Number"
+  }
+}

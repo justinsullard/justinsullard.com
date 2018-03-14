@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:priceType",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+  },
+  "rdfs:comment": "A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry.",
+  "rdfs:label": "priceType",
+  "schema:domainIncludes": {
+    "@id": "schema:UnitPriceSpecification"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

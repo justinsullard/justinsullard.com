@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:speed",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+  },
+  "rdfs:comment": "The speed range of the vehicle. If the vehicle is powered by an engine, the upper limit of the speed range (indicated by <a class=\"localLink\" href=\"http://schema.org/maxValue\">maxValue</a> should be the maximum speed achievable under regular conditions.</p>\n\n<p>Typical unit code(s): KMH for km/h, HM for mile per hour (0.447 04 m/s), KNT for knot</p>\n\n<p>*Note 1: Use <a class=\"localLink\" href=\"http://schema.org/minValue\">minValue</a> and <a class=\"localLink\" href=\"http://schema.org/maxValue\">maxValue</a> to indicate the range. Typically, the minimal value is zero.\n* Note 2: There are many different ways of measuring the speed range. You can link to information about how the given value has been determined using the <a class=\"localLink\" href=\"http://schema.org/valueReference\">valueReference</a> property.",
+  "rdfs:label": "speed",
+  "schema:domainIncludes": {
+    "@id": "schema:Vehicle"
+  },
+  "schema:isPartOf": {
+    "@id": "http://auto.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

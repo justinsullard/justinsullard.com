@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:readBy",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A person who reads (performs) the audiobook.",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "readBy"
+      },
+      "rdfs:subPropertyOf": {
+        "@id": "schema:actor"
+      },
+      "schema:domainIncludes": {
+        "@id": "schema:Audiobook"
+      },
+      "schema:isPartOf": {
+        "@id": "http://bib.schema.org"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Person"
+      }
+    },
+    {
+      "@id": "schema:actor",
+      "@type": "rdf:Property",
+      "rdfs:comment": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
+      "rdfs:label": "actor",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:MovieSeries"
+        },
+        {
+          "@id": "schema:VideoGame"
+        },
+        {
+          "@id": "schema:Movie"
+        },
+        {
+          "@id": "schema:RadioSeries"
+        },
+        {
+          "@id": "schema:TVSeries"
+        },
+        {
+          "@id": "schema:Episode"
+        },
+        {
+          "@id": "schema:VideoObject"
+        },
+        {
+          "@id": "schema:CreativeWorkSeason"
+        },
+        {
+          "@id": "schema:Clip"
+        },
+        {
+          "@id": "schema:VideoGameSeries"
+        },
+        {
+          "@id": "schema:Event"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Person"
+      }
+    }
+  ]
+}

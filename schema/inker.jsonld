@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:inker",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The individual who traces over the pencil drawings in ink after pencils are complete.",
+  "rdfs:label": {
+    "@language": "en",
+    "@value": "inker"
+  },
+  "schema:category": {
+    "@language": "en",
+    "@value": "Comics"
+  },
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:VisualArtwork"
+    },
+    {
+      "@id": "schema:ComicStory"
+    },
+    {
+      "@id": "schema:ComicIssue"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://bib.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Person"
+  }
+}

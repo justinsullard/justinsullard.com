@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:collection",
+      "schema:supersededBy": {
+        "@id": "schema:targetCollection"
+      }
+    },
+    {
+      "@id": "schema:targetCollection",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A sub property of object. The collection target of the action.",
+      "rdfs:label": "targetCollection",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:object"
+      },
+      "schema:domainIncludes": {
+        "@id": "schema:UpdateAction"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Thing"
+      }
+    },
+    {
+      "@id": "schema:object",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The object upon which the action is carried out, whose state is kept intact or changed. Also known as the semantic roles patient, affected or undergoer (which change their state) or theme (which doesn't). e.g. John read <em>a book</em>.",
+      "rdfs:label": "object",
+      "schema:domainIncludes": {
+        "@id": "schema:Action"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Thing"
+      }
+    }
+  ]
+}

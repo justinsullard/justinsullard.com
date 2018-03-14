@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:isicV4",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+  },
+  "rdfs:comment": "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.",
+  "rdfs:label": "isicV4",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:Place"
+    },
+    {
+      "@id": "schema:Organization"
+    },
+    {
+      "@id": "schema:Person"
+    }
+  ],
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

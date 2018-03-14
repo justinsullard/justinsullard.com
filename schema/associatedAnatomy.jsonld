@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:associatedAnatomy",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The anatomy of the underlying organ system or structures associated with this entity.",
+  "rdfs:label": "associatedAnatomy",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:PhysicalActivity"
+    },
+    {
+      "@id": "schema:MedicalCondition"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:AnatomicalStructure"
+    },
+    {
+      "@id": "schema:SuperficialAnatomy"
+    },
+    {
+      "@id": "schema:AnatomicalSystem"
+    }
+  ]
+}

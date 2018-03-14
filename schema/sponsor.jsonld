@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:funder",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:sponsor"
+      }
+    },
+    {
+      "@id": "schema:sponsor",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event.",
+      "rdfs:label": "sponsor",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:CreativeWork"
+        },
+        {
+          "@id": "schema:Person"
+        },
+        {
+          "@id": "schema:Event"
+        },
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:MedicalStudy"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    }
+  ]
+}

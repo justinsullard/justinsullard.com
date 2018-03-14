@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:softwareRequirements",
+      "@type": "rdf:Property",
+      "rdfs:comment": "Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime).",
+      "rdfs:label": "softwareRequirements",
+      "schema:domainIncludes": {
+        "@id": "schema:SoftwareApplication"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:URL"
+        }
+      ]
+    },
+    {
+      "@id": "schema:requirements",
+      "schema:supersededBy": {
+        "@id": "schema:softwareRequirements"
+      }
+    }
+  ]
+}

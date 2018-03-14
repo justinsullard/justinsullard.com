@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:occupancy",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology"
+  },
+  "rdfs:comment": "The allowed total occupancy for the accommodation in persons (including infants etc). For individual accommodations, this is not necessarily the legal maximum but defines the permitted usage as per the contractual agreement (e.g. a double room used by a single person).\nTypical unit code(s): C62 for person",
+  "rdfs:label": "occupancy",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:SingleFamilyResidence"
+    },
+    {
+      "@id": "schema:Suite"
+    },
+    {
+      "@id": "schema:Apartment"
+    },
+    {
+      "@id": "schema:HotelRoom"
+    }
+  ],
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

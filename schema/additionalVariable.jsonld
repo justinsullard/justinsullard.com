@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:additionalVariable",
+  "@type": "rdf:Property",
+  "rdfs:comment": "Any additional component of the exercise prescription that may need to be articulated to the patient. This may include the order of exercises, the number of repetitions of movement, quantitative distance, progressions over time, etc.",
+  "rdfs:label": "additionalVariable",
+  "schema:domainIncludes": {
+    "@id": "schema:ExercisePlan"
+  },
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

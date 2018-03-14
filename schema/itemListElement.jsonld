@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:itemListElement",
+  "@type": "rdf:Property",
+  "rdfs:comment": "For itemListElement values, you can use simple strings (e.g. \"Peter\", \"Paul\", \"Mary\"), existing entities, or use ListItem.</p>\n\n<p>Text values are best if the elements in the list are plain strings. Existing entities are best for a simple, unordered list of existing things in your data. ListItem is used with ordered lists when you want to provide additional context about the element in that list or when the same item might be in different places in different lists.</p>\n\n<p>Note: The order of elements in your mark-up is not sufficient for indicating the order or elements.  Use ListItem with a 'position' property in such cases.",
+  "rdfs:label": "itemListElement",
+  "schema:domainIncludes": {
+    "@id": "schema:ItemList"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:Text"
+    },
+    {
+      "@id": "schema:Thing"
+    },
+    {
+      "@id": "schema:ListItem"
+    }
+  ]
+}

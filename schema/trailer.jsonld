@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:trailer",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The trailer of a movie or tv/radio series, season, episode, etc.",
+  "rdfs:label": "trailer",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:CreativeWorkSeason"
+    },
+    {
+      "@id": "schema:Movie"
+    },
+    {
+      "@id": "schema:Episode"
+    },
+    {
+      "@id": "schema:TVSeries"
+    },
+    {
+      "@id": "schema:RadioSeries"
+    },
+    {
+      "@id": "schema:VideoGameSeries"
+    },
+    {
+      "@id": "schema:VideoGame"
+    },
+    {
+      "@id": "schema:MovieSeries"
+    }
+  ],
+  "schema:rangeIncludes": {
+    "@id": "schema:VideoObject"
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:numAdults",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:volumeNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:numberOfPages",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:playersOnline",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:upvoteCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:offerCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:pageEnd",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:Number",
+      "@type": [
+        "rdfs:Class",
+        "schema:DataType"
+      ],
+      "rdfs:comment": "Data type: Number.",
+      "rdfs:label": "Number"
+    },
+    {
+      "@id": "schema:answerCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:requiredMinAge",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:episodeNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:numChildren",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:numTracks",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:artEdition",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:numberOfItems",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:requiredMaxAge",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:wordCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:userInteractionCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:pageStart",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:reviewCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:maximumAttendeeCapacity",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:partySize",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:downvoteCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:issueNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:remainingAttendeeCapacity",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:ratingCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:commentCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:clipNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:seasonNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:numberOfSeasons",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:numberOfEpisodes",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    },
+    {
+      "@id": "schema:Integer",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "Data type: Integer.",
+      "rdfs:label": "Integer",
+      "rdfs:subClassOf": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:position",
+      "schema:rangeIncludes": {
+        "@id": "schema:Integer"
+      }
+    }
+  ]
+}

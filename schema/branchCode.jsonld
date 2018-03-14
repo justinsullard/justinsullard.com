@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:branchCode",
+  "@type": "rdf:Property",
+  "rdfs:comment": "A short textual code (also called \"store code\") that uniquely identifies a place of business. The code is typically assigned by the parentOrganization and used in structured URLs.</p>\n\n<p>For example, in the URL http://www.starbucks.co.uk/store-locator/etc/detail/3047 the code \"3047\" is a branchCode for a particular branch.",
+  "rdfs:label": "branchCode",
+  "schema:domainIncludes": {
+    "@id": "schema:Place"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

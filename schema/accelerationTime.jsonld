@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:accelerationTime",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+  },
+  "rdfs:comment": "<p>The time needed to accelerate the vehicle from a given start velocity to a given target velocity.</p>\n\n<p>Typical unit code(s): SEC for seconds</p>\n\n<ul>\n<li>Note: There are unfortunately no standard unit codes for seconds/0..100 km/h or seconds/0..60 mph. Simply use \"SEC\" for seconds and indicate the velocities in the <a class=\"localLink\" href=\"http://schema.org/name\">name</a> of the <a class=\"localLink\" href=\"http://schema.org/QuantitativeValue\">QuantitativeValue</a>, or use <a class=\"localLink\" href=\"http://schema.org/valueReference\">valueReference</a> with a <a class=\"localLink\" href=\"http://schema.org/QuantitativeValue\">QuantitativeValue</a> of 0..60 mph or 0..100 km/h to specify the reference speeds.</li>\n</ul>\n",
+  "rdfs:label": "accelerationTime",
+  "schema:domainIncludes": {
+    "@id": "schema:Vehicle"
+  },
+  "schema:isPartOf": {
+    "@id": "http://auto.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

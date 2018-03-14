@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:musicBy",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The composer of the soundtrack.",
+  "rdfs:label": "musicBy",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:Clip"
+    },
+    {
+      "@id": "schema:Episode"
+    },
+    {
+      "@id": "schema:VideoGameSeries"
+    },
+    {
+      "@id": "schema:RadioSeries"
+    },
+    {
+      "@id": "schema:VideoGame"
+    },
+    {
+      "@id": "schema:TVSeries"
+    },
+    {
+      "@id": "schema:VideoObject"
+    },
+    {
+      "@id": "schema:Movie"
+    },
+    {
+      "@id": "schema:MovieSeries"
+    }
+  ],
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:Person"
+    },
+    {
+      "@id": "schema:MusicGroup"
+    }
+  ]
+}

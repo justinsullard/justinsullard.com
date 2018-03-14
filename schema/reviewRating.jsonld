@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:reviewRating",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The rating given in this review. Note that reviews can themselves be rated. The <code>reviewRating</code> applies to rating given by the review. The <a class=\"localLink\" href=\"http://schema.org/aggregateRating\">aggregateRating</a> property applies to the review itself, as a creative work.",
+  "rdfs:label": "reviewRating",
+  "schema:domainIncludes": {
+    "@id": "schema:Review"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Rating"
+  }
+}

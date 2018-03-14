@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:containsSeason",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A season that is part of the media series.",
+      "rdfs:label": "containsSeason",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:hasPart"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:TVSeries"
+        },
+        {
+          "@id": "schema:RadioSeries"
+        },
+        {
+          "@id": "schema:VideoGameSeries"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:CreativeWorkSeason"
+      }
+    },
+    {
+      "@id": "schema:hasPart",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex"
+      },
+      "rdfs:comment": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork.",
+      "rdfs:label": "hasPart",
+      "schema:domainIncludes": {
+        "@id": "schema:CreativeWork"
+      },
+      "schema:inverseOf": {
+        "@id": "schema:isPartOf"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:CreativeWork"
+      }
+    },
+    {
+      "@id": "schema:season",
+      "schema:supersededBy": {
+        "@id": "schema:containsSeason"
+      }
+    }
+  ]
+}

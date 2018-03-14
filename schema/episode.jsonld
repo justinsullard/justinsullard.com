@@ -1,0 +1,63 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:episodes",
+      "schema:supersededBy": {
+        "@id": "schema:episode"
+      }
+    },
+    {
+      "@id": "schema:episode",
+      "@type": "rdf:Property",
+      "rdfs:comment": "An episode of a tv, radio or game media within a series or season.",
+      "rdfs:label": "episode",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:hasPart"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:VideoGameSeries"
+        },
+        {
+          "@id": "schema:TVSeries"
+        },
+        {
+          "@id": "schema:RadioSeries"
+        },
+        {
+          "@id": "schema:CreativeWorkSeason"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Episode"
+      }
+    },
+    {
+      "@id": "schema:hasPart",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex"
+      },
+      "rdfs:comment": "Indicates a CreativeWork that is (in some sense) a part of this CreativeWork.",
+      "rdfs:label": "hasPart",
+      "schema:domainIncludes": {
+        "@id": "schema:CreativeWork"
+      },
+      "schema:inverseOf": {
+        "@id": "schema:isPartOf"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:CreativeWork"
+      }
+    }
+  ]
+}

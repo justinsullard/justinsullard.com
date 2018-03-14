@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:duration",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The duration of the item (movie, audio recording, event, etc.) in <a href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO 8601 date format</a>.",
+      "rdfs:label": "duration",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:MusicRelease"
+        },
+        {
+          "@id": "schema:Audiobook"
+        },
+        {
+          "@id": "schema:MediaObject"
+        },
+        {
+          "@id": "schema:Event"
+        },
+        {
+          "@id": "schema:MusicRecording"
+        },
+        {
+          "@id": "schema:Movie"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Duration"
+      }
+    },
+    {
+      "@id": "schema:loanTerm",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:duration"
+      }
+    }
+  ]
+}

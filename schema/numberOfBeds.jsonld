@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:numberOfBeds",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology"
+  },
+  "rdfs:comment": "The quantity of the given bed type available in the HotelRoom, Suite, House, or Apartment.",
+  "rdfs:label": "numberOfBeds",
+  "schema:domainIncludes": {
+    "@id": "schema:BedDetails"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Number"
+  }
+}

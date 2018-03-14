@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:category",
+  "@type": "rdf:Property",
+  "rdfs:comment": "A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.",
+  "rdfs:label": "category",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:Service"
+    },
+    {
+      "@id": "schema:Offer"
+    },
+    {
+      "@id": "schema:Property"
+    },
+    {
+      "@id": "schema:Invoice"
+    },
+    {
+      "@id": "schema:PhysicalActivity"
+    },
+    {
+      "@id": "schema:Product"
+    },
+    {
+      "@id": "schema:Class"
+    }
+  ],
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:PhysicalActivityCategory"
+    },
+    {
+      "@id": "schema:Thing"
+    },
+    {
+      "@id": "schema:Text"
+    }
+  ]
+}

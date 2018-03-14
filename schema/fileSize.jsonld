@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:fileSize",
+  "@type": "rdf:Property",
+  "rdfs:comment": "Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.",
+  "rdfs:label": "fileSize",
+  "schema:domainIncludes": {
+    "@id": "schema:SoftwareApplication"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

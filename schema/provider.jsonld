@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:provider",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.",
+      "rdfs:label": "provider",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:ParcelDelivery"
+        },
+        {
+          "@id": "schema:BusTrip"
+        },
+        {
+          "@id": "schema:TrainTrip"
+        },
+        {
+          "@id": "schema:Reservation"
+        },
+        {
+          "@id": "schema:Invoice"
+        },
+        {
+          "@id": "schema:Service"
+        },
+        {
+          "@id": "schema:Flight"
+        },
+        {
+          "@id": "schema:CreativeWork"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    },
+    {
+      "@id": "schema:carrier",
+      "schema:supersededBy": {
+        "@id": "schema:provider"
+      }
+    }
+  ]
+}

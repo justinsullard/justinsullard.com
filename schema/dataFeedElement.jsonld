@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:dataFeedElement",
+  "@type": "rdf:Property",
+  "rdfs:comment": "An item within in a data feed. Data feeds may have many elements.",
+  "rdfs:label": "dataFeedElement",
+  "schema:domainIncludes": {
+    "@id": "schema:DataFeed"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:DataFeedItem"
+    },
+    {
+      "@id": "schema:Text"
+    },
+    {
+      "@id": "schema:Thing"
+    }
+  ]
+}

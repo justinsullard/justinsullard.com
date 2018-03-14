@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:fuelEfficiency",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+  },
+  "rdfs:comment": "<p>The distance traveled per unit of fuel used; most commonly miles per gallon (mpg) or kilometers per liter (km/L).</p>\n\n<ul>\n<li>Note 1: There are unfortunately no standard unit codes for miles per gallon or kilometers per liter. Use <a class=\"localLink\" href=\"http://schema.org/unitText\">unitText</a> to indicate the unit of measurement, e.g. mpg or km/L.</li>\n<li>Note 2: There are two ways of indicating the fuel consumption, <a class=\"localLink\" href=\"http://schema.org/fuelConsumption\">fuelConsumption</a> (e.g. 8 liters per 100 km) and <a class=\"localLink\" href=\"http://schema.org/fuelEfficiency\">fuelEfficiency</a> (e.g. 30 miles per gallon). They are reciprocal.</li>\n<li>Note 3: Often, the absolute value is useful only when related to driving speed (\"at 80 km/h\") or usage pattern (\"city traffic\"). You can use <a class=\"localLink\" href=\"http://schema.org/valueReference\">valueReference</a> to link the value for the fuel economy to another value.</li>\n</ul>\n",
+  "rdfs:label": "fuelEfficiency",
+  "schema:domainIncludes": {
+    "@id": "schema:Vehicle"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

@@ -1,0 +1,2455 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:cssSelector",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:dataFeedElement",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:exifData",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:codeValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:musicCompositionForm",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:transcript",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:linkRelationship",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:episodeNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:warning",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:iswcCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:knownVehicleDamages",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:reportNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:broadcastFrequency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:action",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:arrivalPlatform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:contentRating",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:interactivityType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:arrivalTerminal",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:valueName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:address",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:coursePrerequisites",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:inSupportOf",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:ticketNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:flightNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:awards",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:acrissCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessModeSufficient",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:trainNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:characterName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessibilityControl",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:discount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:browserRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanCopayOption",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:salaryCurrency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:loanType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:background",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:normalRange",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:activityFrequency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:busNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:priceType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:requiredGender",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:breadcrumb",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:biomechnicalClass",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:catalogNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:termsOfService",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:eligibleRegion",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:expectedPrognosis",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:priceCurrency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:keywords",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:alternateName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:artform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:duns",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:educationalRole",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:isicV4",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:howPerformed",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:paymentMethodId",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:model",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:telephone",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:latitude",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:isrcCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:workHours",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:openingHours",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:identifier",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:pageStart",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:encodingFormat",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:operatingSystem",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:runtimePlatform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:suggestedGender",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:sport",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:feesAndCommissionsSpecification",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:servingSize",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:articleSection",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:departureGate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:orderNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:color",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:jobTitle",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:reviewBody",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:fileSize",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:employmentType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:dietFeatures",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:additionalName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:Text",
+      "@type": [
+        "rdfs:Class",
+        "schema:DataType"
+      ],
+      "rdfs:comment": "Data type: Text.",
+      "rdfs:label": "Text"
+    },
+    {
+      "@id": "schema:currenciesAccepted",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:availableLanguage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:providerMobility",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:actionOption",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanId",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:actionPlatform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:expertConsiderations",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:courseMode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bestRating",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:playerType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:leiCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vehicleConfiguration",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vehicleInteriorColor",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:trackingNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:seatingType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:videoFormat",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:line",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:alcoholWarning",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:doseUnit",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:postalCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:alternativeHeadline",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:courseCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:frequency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:subtitleLanguage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:intensity",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:query",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:educationalCredentialAwarded",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:broadcastChannelId",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:transmissionMethod",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:benefits",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:sku",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:caption",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:outcome",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:processorRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:itemListElement",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:subtype",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:restPeriods",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:paymentAccepted",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:estimatedFlightDuration",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:educationalUse",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:priceRange",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:additionalVariable",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:genre",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:honorificSuffix",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:postOfficeBoxNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:addressRegion",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:seatNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:contentSize",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:version",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:industry",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:contactType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:artEdition",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:proprietaryName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:busName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:branchCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:numberOfAirbags",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:videoQuality",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:physiologicalBenefits",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:infectiousAgent",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:programmingLanguage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:activeIngredient",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:artMedium",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:issueNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:xpath",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:departureTerminal",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:typicalAgeRange",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:permissions",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:trainName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:membershipNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:variableMeasured",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:honorificPrefix",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:gtin8",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:overview",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:driveWheelConfiguration",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:possibleComplication",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:clinicalPharmacology",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:jobBenefits",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:memoryRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:pathophysiology",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vehicleIdentificationNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:exerciseType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:countriesNotSupported",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:recipeInstructions",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:email",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:cookingMethod",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:status",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:elevation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:responsibilities",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:targetDescription",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:postOp",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:followup",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:requirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:unitText",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:award",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:requiredCollateral",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:lodgingUnitDescription",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:significance",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:price",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:availableOnDevice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:productID",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:legalStatus",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:tissueSample",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:temporalCoverage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:mechanismOfAction",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:experienceRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:softwareRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:httpMethod",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:fuelType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:skills",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:pageEnd",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:broadcastDisplayName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:claimReviewed",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:hasMenu",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:structuralClass",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:broadcastTimezone",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:functionalClass",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:strengthUnit",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:breastfeedingWarning",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:proficiencyLevel",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:option",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:function",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:beneficiaryBank",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:targetPlatform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:acceptsReservations",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:iataCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:pagination",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:storageRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:addressLocality",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:artworkSurface",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessibilityAPI",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:targetPopulation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanPharmacyCategory",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:material",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:namedPosition",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:assembly",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:text",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:population",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:prescriptionStatus",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:costCurrency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:highPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:meetsEmissionStandard",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:discountCurrency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:schemaVersion",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:algorithm",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:seatRow",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:publicationType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:rxcui",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:qualifications",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:procedure",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:value",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:assemblyVersion",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:printPage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:contentType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:paymentStatus",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vatID",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:printColumn",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:sampleType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:audienceType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:URL",
+      "rdfs:subClassOf": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:polygon",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:gender",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:broadcastServiceTier",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:lowPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:releaseNotes",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:description",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:variantCover",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessibilityHazard",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:safetyConsideration",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:boardingGroup",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:pregnancyWarning",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:currency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:recommendationStrength",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:itemListOrder",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:runtime",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:mpn",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:box",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:overdosage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:recipeCuisine",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bodyType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:clipNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:departurePlatform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:arrivalGate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:legalName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:position",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:commentText",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accountId",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:targetName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessibilitySummary",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vehicleInteriorType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:totalPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:dateline",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bitrate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:volumeNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:title",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:headline",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:naics",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanNetworkTier",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:ratingValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:engineType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:epidemiology",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:costPerUnit",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:preparation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:recipeYield",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:flightDistance",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:longitude",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:lodgingUnitType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:urlTemplate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:musicalKey",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:securityScreening",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:educationRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:articleBody",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:orderItemNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanCoinsuranceOption",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:risks",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:disambiguatingDescription",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:petsAllowed",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:subStageSuffix",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:printSection",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:seasonNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:recipeCategory",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:aspect",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:measurementTechnique",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:citation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:device",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:clincalPharmacology",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:usesHealthPlanIdStandard",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:isbn",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:preOp",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:programName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:taxID",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:ticketToken",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:passengerPriorityStatus",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:applicationSubCategory",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:executableLibraryName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:inLanguage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:addressCountry",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:specialCommitments",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:givenName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:worstRating",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:ineligibleRegion",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:surface",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vehicleTransmission",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:aircraft",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:fileFormat",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:faxNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:countriesSupported",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:dosageForm",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:drugUnit",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:geoRadius",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:nonProprietaryName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:occupationalCategory",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:servesCuisine",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:incentives",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:defaultValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanDrugTier",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:printEdition",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanNetworkId",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:vehicleSpecialUsage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bodyLocation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:confirmationNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bookEdition",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:gamePlatform",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:gtin14",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:gtin13",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:gtin12",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:areaServed",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:alignmentType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:dependencies",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:tickerSymbol",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessMode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:programmingModel",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:location",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:learningResourceType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bankAccountType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:familyName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:softwareVersion",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:costOrigin",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:applicationCategory",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:healthPlanDrugOption",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:accessibilityFeature",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:encodingType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:associatedPathophysiology",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:valuePattern",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:evidenceOrigin",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:roleName",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:recipeIngredient",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:issn",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:unitCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:educationalFramework",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:administrationRoute",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:discountCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:propertyID",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:ingredients",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:applicationSuite",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:bed",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:circle",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:phase",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:featureList",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:reservationId",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:productSupported",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:permittedUsage",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:name",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:foodWarning",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:carrierRequirements",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:typeOfBed",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:codeSampleType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:codingSystem",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:serviceType",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:passengerSequenceNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:icaoCode",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:muscleAction",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:seatSection",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:menu",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:mealService",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:DataType",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "The basic data types such as Integers, Strings, etc.",
+      "rdfs:label": "DataType",
+      "rdfs:subClassOf": {
+        "@id": "rdfs:Class"
+      }
+    },
+    {
+      "@id": "schema:globalLocationNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:naturalProgression",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:incentiveCompensation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:videoFrameSize",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:streetAddress",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:serialNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:category",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:contraindication",
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    }
+  ]
+}

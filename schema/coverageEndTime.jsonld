@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:coverageEndTime",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The time when the live blog will stop covering the Event. Note that coverage may continue after the Event concludes.",
+  "rdfs:label": "coverageEndTime",
+  "schema:domainIncludes": {
+    "@id": "schema:LiveBlogPosting"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:DateTime"
+  }
+}

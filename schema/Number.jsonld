@@ -1,0 +1,397 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:numberOfBeds",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:valueMinLength",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:broadcastFrequencyValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfRooms",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:billingIncrement",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:suggestedMaxAge",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:screenCount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:highPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:discount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:seatingCapacity",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:Number",
+      "@type": [
+        "rdfs:Class",
+        "schema:DataType"
+      ],
+      "rdfs:comment": "Data type: Number.",
+      "rdfs:label": "Number"
+    },
+    {
+      "@id": "schema:stepValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:baseSalary",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:minValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:valueMaxLength",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:exchangeRateSpread",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:totalPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberedPosition",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:stageAsNumber",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfPreviousOwners",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:vehicleSeatingCapacity",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:latitude",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:worstRating",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:amount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:Float",
+      "rdfs:subClassOf": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfAxles",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:copyrightYear",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:repetitions",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:version",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:value",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfLoanPayments",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:childMinAge",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:bestRating",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:ratingValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:emissionsCO2",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:maxValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:downPayment",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:annualPercentageRate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:DataType",
+      "@type": "rdfs:Class",
+      "rdfs:comment": "The basic data types such as Integers, Strings, etc.",
+      "rdfs:label": "DataType",
+      "rdfs:subClassOf": {
+        "@id": "rdfs:Class"
+      }
+    },
+    {
+      "@id": "schema:doseValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:loanPaymentFrequency",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:suggestedMinAge",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:costPerUnit",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfDoors",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:cashBack",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfForwardGears",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:additionalNumberOfGuests",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:orderQuantity",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:monthlyMinimumRepaymentAmount",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:childMaxAge",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:geoRadius",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:interestRate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:minPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:price",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:numberOfAirbags",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:longitude",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:healthPlanCoinsuranceRate",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:maxPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:elevation",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:amountOfThisGood",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:strengthValue",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:lowPrice",
+      "schema:rangeIncludes": {
+        "@id": "schema:Number"
+      }
+    },
+    {
+      "@id": "schema:Integer",
+      "rdfs:subClassOf": {
+        "@id": "schema:Number"
+      }
+    }
+  ]
+}

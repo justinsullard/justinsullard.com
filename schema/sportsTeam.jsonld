@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:sportsTeam",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A sub property of participant. The sports team that participated on this action.",
+      "rdfs:label": "sportsTeam",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      },
+      "schema:domainIncludes": {
+        "@id": "schema:ExerciseAction"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:SportsTeam"
+      }
+    },
+    {
+      "@id": "schema:participant",
+      "@type": "rdf:Property",
+      "rdfs:comment": "Other co-agents that participated in the action indirectly. e.g. John wrote a book with <em>Steve</em>.",
+      "rdfs:label": "participant",
+      "schema:domainIncludes": {
+        "@id": "schema:Action"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    }
+  ]
+}

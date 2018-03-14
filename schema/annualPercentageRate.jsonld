@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:annualPercentageRate",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO"
+  },
+  "rdfs:comment": "The annual rate that is charged for borrowing (or made by investing), expressed as a single percentage number that represents the actual yearly cost of funds over the term of a loan. This includes any fees or additional costs associated with the transaction.",
+  "rdfs:label": "annualPercentageRate",
+  "schema:domainIncludes": {
+    "@id": "schema:FinancialProduct"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:Number"
+    },
+    {
+      "@id": "schema:QuantitativeValue"
+    }
+  ]
+}

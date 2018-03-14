@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:adverseOutcome",
+  "@type": "rdf:Property",
+  "rdfs:comment": "A possible complication and/or side effect of this therapy. If it is known that an adverse outcome is serious (resulting in death, disability, or permanent damage; requiring hospitalization; or is otherwise life-threatening or requires immediate medical attention), tag it as a seriouseAdverseOutcome instead.",
+  "rdfs:label": "adverseOutcome",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:MedicalDevice"
+    },
+    {
+      "@id": "schema:TherapeuticProcedure"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:MedicalEntity"
+  }
+}

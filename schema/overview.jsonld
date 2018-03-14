@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:overview",
+  "@type": "rdf:Property",
+  "rdfs:comment": "Descriptive information establishing the overarching theory/philosophy of the plan. May include the rationale for the name, the population where the plan first came to prominence, etc.",
+  "rdfs:label": "overview",
+  "schema:domainIncludes": {
+    "@id": "schema:Diet"
+  },
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

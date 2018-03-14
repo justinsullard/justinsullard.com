@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:readBy",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:actor"
+      }
+    },
+    {
+      "@id": "schema:actor",
+      "@type": "rdf:Property",
+      "rdfs:comment": "An actor, e.g. in tv, radio, movie, video games etc., or in an event. Actors can be associated with individual items or with a series, episode, clip.",
+      "rdfs:label": "actor",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Movie"
+        },
+        {
+          "@id": "schema:CreativeWorkSeason"
+        },
+        {
+          "@id": "schema:VideoGame"
+        },
+        {
+          "@id": "schema:VideoGameSeries"
+        },
+        {
+          "@id": "schema:MovieSeries"
+        },
+        {
+          "@id": "schema:Episode"
+        },
+        {
+          "@id": "schema:Event"
+        },
+        {
+          "@id": "schema:VideoObject"
+        },
+        {
+          "@id": "schema:Clip"
+        },
+        {
+          "@id": "schema:RadioSeries"
+        },
+        {
+          "@id": "schema:TVSeries"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Person"
+      }
+    },
+    {
+      "@id": "schema:actors",
+      "schema:supersededBy": {
+        "@id": "schema:actor"
+      }
+    }
+  ]
+}

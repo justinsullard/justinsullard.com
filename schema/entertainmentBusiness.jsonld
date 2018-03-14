@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:entertainmentBusiness",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A sub property of location. The entertainment business where the action occurred.",
+      "rdfs:label": "entertainmentBusiness",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      },
+      "schema:domainIncludes": {
+        "@id": "schema:PerformAction"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:EntertainmentBusiness"
+      }
+    },
+    {
+      "@id": "schema:location",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The location of for example where the event is happening, an organization is located, or where an action takes place.",
+      "rdfs:label": "location",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Event"
+        },
+        {
+          "@id": "schema:Action"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:PostalAddress"
+        },
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:Place"
+        }
+      ]
+    }
+  ]
+}

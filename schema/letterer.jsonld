@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:letterer",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The individual who adds lettering, including speech balloons and sound effects, to artwork.",
+  "rdfs:label": {
+    "@language": "en",
+    "@value": "letterer"
+  },
+  "schema:category": {
+    "@language": "en",
+    "@value": "Comics"
+  },
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:ComicStory"
+    },
+    {
+      "@id": "schema:ComicIssue"
+    },
+    {
+      "@id": "schema:VisualArtwork"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://bib.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Person"
+  }
+}

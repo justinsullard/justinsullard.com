@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:entertainmentBusiness",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:sportsEvent",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:foodEvent",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:fromLocation",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:homeLocation",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:course",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:location",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The location of for example where the event is happening, an organization is located, or where an action takes place.",
+      "rdfs:label": "location",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Action"
+        },
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Event"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:PostalAddress"
+        },
+        {
+          "@id": "schema:Place"
+        },
+        {
+          "@id": "schema:Text"
+        }
+      ]
+    },
+    {
+      "@id": "schema:workLocation",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:toLocation",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:exerciseCourse",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:foodEstablishment",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    },
+    {
+      "@id": "schema:sportsActivityLocation",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:location"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:vehicleIdentificationNumber",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+      },
+      "rdfs:comment": "The Vehicle Identification Number (VIN) is a unique serial number used by the automotive industry to identify individual motor vehicles.",
+      "rdfs:label": "vehicleIdentificationNumber",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:serialNumber"
+      },
+      "schema:domainIncludes": {
+        "@id": "schema:Vehicle"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    },
+    {
+      "@id": "schema:identifier",
+      "@type": "rdf:Property",
+      "owl:equivalentProperty": {
+        "@id": "dct:identifier"
+      },
+      "rdfs:comment": "The identifier property represents any kind of identifier for any kind of <a class=\"localLink\" href=\"http://schema.org/Thing\">Thing</a>, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See <a href=\"/docs/datamodel.html#identifierBg\">background notes</a> for more details.",
+      "rdfs:label": "identifier",
+      "schema:domainIncludes": {
+        "@id": "schema:Thing"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:URL"
+        },
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:PropertyValue"
+        }
+      ]
+    },
+    {
+      "@id": "schema:serialNumber",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+      },
+      "rdfs:comment": "The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.",
+      "rdfs:label": "serialNumber",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:identifier"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:IndividualProduct"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    }
+  ]
+}

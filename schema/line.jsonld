@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:line",
+  "@type": "rdf:Property",
+  "rdfs:comment": "A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space.",
+  "rdfs:label": "line",
+  "schema:domainIncludes": {
+    "@id": "schema:GeoShape"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

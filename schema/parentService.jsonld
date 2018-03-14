@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:parentService",
+  "@type": "rdf:Property",
+  "rdfs:comment": "A broadcast service to which the broadcast service may belong to such as regional variations of a national channel.",
+  "rdfs:label": "parentService",
+  "schema:domainIncludes": {
+    "@id": "schema:BroadcastService"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:BroadcastService"
+  }
+}

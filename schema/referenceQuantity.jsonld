@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:referenceQuantity",
+  "@type": "rdf:Property",
+  "dct:source": [
+    {
+      "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+    },
+    {
+      "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsProperties"
+    }
+  ],
+  "rdfs:comment": "The reference quantity for which a certain price applies, e.g. 1 EUR per 4 kWh of electricity. This property is a replacement for unitOfMeasurement for the advanced cases where the price does not relate to a standard unit.",
+  "rdfs:label": "referenceQuantity",
+  "schema:domainIncludes": {
+    "@id": "schema:UnitPriceSpecification"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

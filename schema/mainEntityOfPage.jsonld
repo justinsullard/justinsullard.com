@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:mainEntity",
+      "schema:inverseOf": {
+        "@id": "schema:mainEntityOfPage"
+      }
+    },
+    {
+      "@id": "schema:mainEntityOfPage",
+      "@type": "rdf:Property",
+      "rdfs:comment": "Indicates a page (or other CreativeWork) for which this thing is the main entity being described. See <a href=\"/docs/datamodel.html#mainEntityBackground\">background notes</a> for details.",
+      "rdfs:label": "mainEntityOfPage",
+      "schema:domainIncludes": {
+        "@id": "schema:Thing"
+      },
+      "schema:inverseOf": {
+        "@id": "schema:mainEntity"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:URL"
+        },
+        {
+          "@id": "schema:CreativeWork"
+        }
+      ]
+    }
+  ]
+}

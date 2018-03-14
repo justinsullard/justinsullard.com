@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:background",
+  "@type": "rdf:Property",
+  "rdfs:comment": "Descriptive information establishing a historical perspective on the supplement. May include the rationale for the name, the population where the supplement first came to prominence, etc.",
+  "rdfs:label": "background",
+  "schema:domainIncludes": {
+    "@id": "schema:DietarySupplement"
+  },
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:Text"
+  }
+}

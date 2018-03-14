@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:competitor",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A competitor in a sports event.",
+      "rdfs:label": "competitor",
+      "schema:domainIncludes": {
+        "@id": "schema:SportsEvent"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:SportsTeam"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    },
+    {
+      "@id": "schema:awayTeam",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:competitor"
+      }
+    },
+    {
+      "@id": "schema:homeTeam",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:competitor"
+      }
+    }
+  ]
+}

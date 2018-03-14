@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:speakable",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "https://github.com/schemaorg/schemaorg/issues/1389"
+  },
+  "rdfs:comment": "Indicates sections of a Web page that are particularly 'speakable' in the sense of being highlighted as being especially appropriate for text-to-speech conversion. Other sections of a page may also be usefully spoken in particular circumstances; the 'speakable' property serves to indicate the parts most likely to be generally useful for speech.</p>\n\n<p>The <em>speakable</em> property can be repeated an arbitrary number of times, with three kinds of possible 'content-locator' values:</p>\n\n<p>1.) <em>id-value</em> URL references - uses <em>id-value</em> of an element in the page being annotated. The simplest use of <em>speakable</em> has (potentially relative) URL values, referencing identified sections of the document concerned.</p>\n\n<p>2.) CSS Selectors - addresses content in the annotated page, eg. via class attribute. Use the <a class=\"localLink\" href=\"http://schema.org/cssSelector\">cssSelector</a> property.</p>\n\n<p>3.)  XPaths - addresses content via XPaths (assuming an XML view of the content). Use the <a class=\"localLink\" href=\"http://schema.org/xpath\">xpath</a> property.</p>\n\n<p>For more sophisticated markup of speakable sections beyond simple ID references, either CSS selectors or XPath expressions to pick out document section(s) as speakable. For this\nwe define a supporting type, <a class=\"localLink\" href=\"http://schema.org/SpeakableSpecification\">SpeakableSpecification</a>  which is defined to be a possible value of the <em>speakable</em> property.",
+  "rdfs:label": "speakable",
+  "schema:category": "issue-1389",
+  "schema:domainIncludes": {
+    "@id": "schema:WebPage"
+  },
+  "schema:isPartOf": {
+    "@id": "http://pending.schema.org"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:URL"
+    },
+    {
+      "@id": "schema:SpeakableSpecification"
+    }
+  ]
+}

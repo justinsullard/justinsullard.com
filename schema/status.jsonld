@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:status",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The status of the study (enumerated).",
+  "rdfs:label": "status",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:MedicalCondition"
+    },
+    {
+      "@id": "schema:MedicalStudy"
+    },
+    {
+      "@id": "schema:MedicalProcedure"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:MedicalStudyStatus"
+    },
+    {
+      "@id": "schema:Text"
+    },
+    {
+      "@id": "schema:EventStatusType"
+    }
+  ]
+}

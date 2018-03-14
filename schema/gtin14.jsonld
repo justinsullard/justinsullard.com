@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:identifier",
+      "@type": "rdf:Property",
+      "owl:equivalentProperty": {
+        "@id": "dct:identifier"
+      },
+      "rdfs:comment": "The identifier property represents any kind of identifier for any kind of <a class=\"localLink\" href=\"http://schema.org/Thing\">Thing</a>, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See <a href=\"/docs/datamodel.html#identifierBg\">background notes</a> for more details.",
+      "rdfs:label": "identifier",
+      "schema:domainIncludes": {
+        "@id": "schema:Thing"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:URL"
+        },
+        {
+          "@id": "schema:PropertyValue"
+        }
+      ]
+    },
+    {
+      "@id": "schema:gtin14",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+      },
+      "rdfs:comment": "The <a href=\"http://apps.gs1.org/GDD/glossary/Pages/GTIN-14.aspx\">GTIN-14</a> code of the product, or the product to which the offer refers. See <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GS1 GTIN Summary</a> for more details.",
+      "rdfs:label": "gtin14",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:identifier"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:Product"
+        },
+        {
+          "@id": "schema:Offer"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Text"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "@id": "/",
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Justin Sullard",
+    "disambiguationDescription": "Father. Husband. Musician. Developer. Thinker.",
+    "description": "Hello, and welcome to my website.\n\nThis website, just like myself, is a perpetual work in progress. I intend on keeping it in perpetual beta forever, or will die trying.\n\nTake a look around, bookmark it, check back periodically, drop me a line, let me know what you think.\n\nAnywho, that's enough of my blabbering, get on with your browsing.",
+    "image": "/image.svg",
+    "url": "/",
+    "mainEntityOfPage": "/",
+    "givenName": "Justin",
+    "familyName": "Sullard",
+    "email": "justin@justinsullard.com",
+    "birthDate": "1983-01-01T06:28:00.000Z",
+    "gender": "http://schema.org/Male"
+}

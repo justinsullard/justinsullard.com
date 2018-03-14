@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:subEvent",
+      "@type": "rdf:Property",
+      "rdfs:comment": "An Event that is part of this event. For example, a conference event includes many presentations, each of which is a subEvent of the conference.",
+      "rdfs:label": "subEvent",
+      "schema:domainIncludes": {
+        "@id": "schema:Event"
+      },
+      "schema:inverseOf": {
+        "@id": "schema:superEvent"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Event"
+      }
+    },
+    {
+      "@id": "schema:subEvents",
+      "schema:supersededBy": {
+        "@id": "schema:subEvent"
+      }
+    },
+    {
+      "@id": "schema:superEvent",
+      "schema:inverseOf": {
+        "@id": "schema:subEvent"
+      }
+    }
+  ]
+}

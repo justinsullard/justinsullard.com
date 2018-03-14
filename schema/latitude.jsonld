@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:latitude",
+  "@type": "rdf:Property",
+  "rdfs:comment": "The latitude of a location. For example <code>37.42242</code> (<a href=\"https://en.wikipedia.org/wiki/World_Geodetic_System\">WGS 84</a>).",
+  "rdfs:label": "latitude",
+  "schema:domainIncludes": {
+    "@id": "schema:GeoCoordinates"
+  },
+  "schema:rangeIncludes": [
+    {
+      "@id": "schema:Text"
+    },
+    {
+      "@id": "schema:Number"
+    }
+  ]
+}

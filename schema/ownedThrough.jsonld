@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:ownedThrough",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+  },
+  "rdfs:comment": "The date and time of giving up ownership on the product.",
+  "rdfs:label": "ownedThrough",
+  "schema:domainIncludes": {
+    "@id": "schema:OwnershipInfo"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:DateTime"
+  }
+}

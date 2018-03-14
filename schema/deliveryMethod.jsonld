@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:deliveryMethod",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A sub property of instrument. The method of delivery.",
+      "rdfs:label": "deliveryMethod",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:instrument"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:SendAction"
+        },
+        {
+          "@id": "schema:ReceiveAction"
+        },
+        {
+          "@id": "schema:TrackAction"
+        },
+        {
+          "@id": "schema:OrderAction"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:DeliveryMethod"
+      }
+    },
+    {
+      "@id": "schema:instrument",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The object that helped the agent perform the action. e.g. John wrote a book with <em>a pen</em>.",
+      "rdfs:label": "instrument",
+      "schema:domainIncludes": {
+        "@id": "schema:Action"
+      },
+      "schema:rangeIncludes": {
+        "@id": "schema:Thing"
+      }
+    }
+  ]
+}

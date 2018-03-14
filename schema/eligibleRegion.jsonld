@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:eligibleRegion",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+      },
+      "rdfs:comment": "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.</p>\n\n<p>See also <a class=\"localLink\" href=\"http://schema.org/ineligibleRegion\">ineligibleRegion</a>.",
+      "rdfs:label": "eligibleRegion",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:areaServed"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "schema:DeliveryChargeSpecification"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Place"
+        },
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:GeoShape"
+        }
+      ]
+    },
+    {
+      "@id": "schema:areaServed",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The geographic area where a service or offered item is provided.",
+      "rdfs:label": "areaServed",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:DeliveryChargeSpecification"
+        },
+        {
+          "@id": "schema:Service"
+        },
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:ContactPoint"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Place"
+        },
+        {
+          "@id": "schema:AdministrativeArea"
+        },
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:GeoShape"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:cause",
+  "@type": "rdf:Property",
+  "rdfs:comment": "Specifying a cause of something in general. e.g in medicine , one of the causative agent(s) that are most directly responsible for the pathophysiologic process that eventually results in the occurrence.",
+  "rdfs:label": "cause",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:MedicalSignOrSymptom"
+    },
+    {
+      "@id": "schema:MedicalCondition"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://health-lifesci.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:MedicalCause"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:includedDataCatalog",
+  "@type": "rdf:Property",
+  "rdfs:comment": "A data catalog which contains this dataset (this property was previously 'catalog', preferred name is now 'includedInDataCatalog').",
+  "rdfs:label": "includedDataCatalog",
+  "schema:domainIncludes": {
+    "@id": "schema:Dataset"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:DataCatalog"
+  },
+  "schema:supersededBy": {
+    "@id": "schema:includedInDataCatalog"
+  }
+}

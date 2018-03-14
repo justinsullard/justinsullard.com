@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:areaServed",
+      "@type": "rdf:Property",
+      "rdfs:comment": "The geographic area where a service or offered item is provided.",
+      "rdfs:label": "areaServed",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Service"
+        },
+        {
+          "@id": "schema:DeliveryChargeSpecification"
+        },
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "schema:ContactPoint"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Text"
+        },
+        {
+          "@id": "schema:Place"
+        },
+        {
+          "@id": "schema:AdministrativeArea"
+        },
+        {
+          "@id": "schema:GeoShape"
+        }
+      ]
+    },
+    {
+      "@id": "schema:availableAtOrFrom",
+      "@type": "rdf:Property",
+      "dct:source": {
+        "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms"
+      },
+      "rdfs:comment": "The place(s) from which the offer can be obtained (e.g. store locations).",
+      "rdfs:label": "availableAtOrFrom",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:areaServed"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:Offer"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Place"
+      }
+    }
+  ]
+}

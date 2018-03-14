@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:torque",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+  },
+  "rdfs:comment": "<p>The torque (turning force) of the vehicle's engine.</p>\n\n<p>Typical unit code(s): NU for newton metre (N m), F17 for pound-force per foot, or F48 for pound-force per inch</p>\n\n<ul>\n<li>Note 1: You can link to information about how the given value has been determined (e.g. reference RPM) using the <a class=\"localLink\" href=\"http://schema.org/valueReference\">valueReference</a> property.</li>\n<li>Note 2: You can use <a class=\"localLink\" href=\"http://schema.org/minValue\">minValue</a> and <a class=\"localLink\" href=\"http://schema.org/maxValue\">maxValue</a> to indicate ranges.</li>\n</ul>\n",
+  "rdfs:label": "torque",
+  "schema:domainIncludes": {
+    "@id": "schema:EngineSpecification"
+  },
+  "schema:isPartOf": {
+    "@id": "http://auto.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

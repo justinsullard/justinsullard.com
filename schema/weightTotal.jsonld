@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:weightTotal",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group"
+  },
+  "rdfs:comment": "<p>The permitted total weight of the loaded vehicle, including passengers and cargo and the weight of the empty vehicle.</p>\n\n<p>Typical unit code(s): KGM for kilogram, LBR for pound</p>\n\n<ul>\n<li>Note 1: You can indicate additional information in the <a class=\"localLink\" href=\"http://schema.org/name\">name</a> of the <a class=\"localLink\" href=\"http://schema.org/QuantitativeValue\">QuantitativeValue</a> node.</li>\n<li>Note 2: You may also link to a <a class=\"localLink\" href=\"http://schema.org/QualitativeValue\">QualitativeValue</a> node that provides additional information using <a class=\"localLink\" href=\"http://schema.org/valueReference\">valueReference</a>.</li>\n<li>Note 3: Note that you can use <a class=\"localLink\" href=\"http://schema.org/minValue\">minValue</a> and <a class=\"localLink\" href=\"http://schema.org/maxValue\">maxValue</a> to indicate ranges.</li>\n</ul>\n",
+  "rdfs:label": "weightTotal",
+  "schema:domainIncludes": {
+    "@id": "schema:Vehicle"
+  },
+  "schema:isPartOf": {
+    "@id": "http://auto.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

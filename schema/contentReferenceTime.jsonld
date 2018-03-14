@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:contentReferenceTime",
+  "@type": "rdf:Property",
+  "dct:source": {
+    "@id": "https://github.com/schemaorg/schemaorg/issues/1050"
+  },
+  "rdfs:comment": "The specific time described by a creative work, for works (e.g. articles, video objects etc.) that emphasise a particular moment within an Event.",
+  "rdfs:label": "contentReferenceTime",
+  "schema:category": "issue-1050",
+  "schema:domainIncludes": {
+    "@id": "schema:CreativeWork"
+  },
+  "schema:isPartOf": {
+    "@id": "http://pending.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:DateTime"
+  }
+}

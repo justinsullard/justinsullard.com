@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:review",
+      "@type": "rdf:Property",
+      "rdfs:comment": "A review of the item.",
+      "rdfs:label": "review",
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Service"
+        },
+        {
+          "@id": "schema:Event"
+        },
+        {
+          "@id": "schema:Brand"
+        },
+        {
+          "@id": "schema:Product"
+        },
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:CreativeWork"
+        },
+        {
+          "@id": "schema:Place"
+        }
+      ],
+      "schema:rangeIncludes": {
+        "@id": "schema:Review"
+      }
+    },
+    {
+      "@id": "schema:reviews",
+      "schema:supersededBy": {
+        "@id": "schema:review"
+      }
+    }
+  ]
+}

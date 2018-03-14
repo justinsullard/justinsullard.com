@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "schema:stupidProperty",
+  "@type": "rdf:Property",
+  "rdfs:comment": "This is a StupidProperty! - for testing only",
+  "rdfs:label": "stupidProperty",
+  "schema:domainIncludes": [
+    {
+      "@id": "schema:StupidType"
+    },
+    {
+      "@id": "schema:Vehicle"
+    }
+  ],
+  "schema:isPartOf": {
+    "@id": "http://attic.schema.org"
+  },
+  "schema:rangeIncludes": {
+    "@id": "schema:QuantitativeValue"
+  }
+}

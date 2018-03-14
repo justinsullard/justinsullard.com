@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:seller",
+      "@type": "rdf:Property",
+      "rdfs:comment": "An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider.",
+      "rdfs:label": "seller",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      },
+      "schema:domainIncludes": [
+        {
+          "@id": "schema:Offer"
+        },
+        {
+          "@id": "schema:Order"
+        },
+        {
+          "@id": "schema:Demand"
+        },
+        {
+          "@id": "schema:BuyAction"
+        },
+        {
+          "@id": "schema:Flight"
+        }
+      ],
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    },
+    {
+      "@id": "schema:merchant",
+      "schema:supersededBy": {
+        "@id": "schema:seller"
+      }
+    },
+    {
+      "@id": "schema:participant",
+      "@type": "rdf:Property",
+      "rdfs:comment": "Other co-agents that participated in the action indirectly. e.g. John wrote a book with <em>Steve</em>.",
+      "rdfs:label": "participant",
+      "schema:domainIncludes": {
+        "@id": "schema:Action"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    },
+    {
+      "@id": "schema:vendor",
+      "schema:supersededBy": {
+        "@id": "schema:seller"
+      }
+    }
+  ]
+}

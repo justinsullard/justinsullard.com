@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfa": "http://www.w3.org/ns/rdfa#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "schema:landlord",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:loser",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:seller",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:sportsTeam",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:vendor",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:endorsee",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:opponent",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:recipient",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:sender",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:buyer",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:realEstateAgent",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:winner",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:borrower",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:lender",
+      "rdfs:subPropertyOf": {
+        "@id": "schema:participant"
+      }
+    },
+    {
+      "@id": "schema:participant",
+      "@type": "rdf:Property",
+      "rdfs:comment": "Other co-agents that participated in the action indirectly. e.g. John wrote a book with <em>Steve</em>.",
+      "rdfs:label": "participant",
+      "schema:domainIncludes": {
+        "@id": "schema:Action"
+      },
+      "schema:rangeIncludes": [
+        {
+          "@id": "schema:Organization"
+        },
+        {
+          "@id": "schema:Person"
+        }
+      ]
+    }
+  ]
+}
